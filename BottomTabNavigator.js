@@ -67,8 +67,8 @@ export default class BottomTabNavigator extends Component {
             labelPosition: "below-icon",
             tabStyle: {
               alignItems: "center",
-              justifyContent: "center"
-            }
+              justifyContent: "center",
+            },
           }}
         >
           <Tab.Screen name="Ride" component={RideScreen} />
